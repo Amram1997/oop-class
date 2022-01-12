@@ -1,8 +1,9 @@
+let id = 0
 class Account {
     
     constructor(name,balance) {
         
-        this._id = 0
+        this._id = id++
         this._name = name;
         this._balance = balance;
         
